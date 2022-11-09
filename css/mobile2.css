@@ -1,0 +1,8 @@
+@media screen and (max-width:768px){ 
+  /* 장치가 스크린이고 화면너비가 최대768px일때(768px이하) 스타일적용 */
+  body h1 a{
+    width: 300px;
+    height: 302px;
+    background-size: 298px;
+  }
+}

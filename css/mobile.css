@@ -1,0 +1,270 @@
+@media screen and (max-width:768px){ 
+  /* 장치가 스크린이고 화면너비가 최대768px일때(768px이하) 스타일적용 */
+  header{
+    width: calc(100% - 40px);
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  header ul{
+    display: none;
+  }
+  header > a{
+    font-size: 0;
+    width: 30px;
+    height: 30px;
+    border-top: 3px solid #6d929b;
+    border-bottom: 3px solid #6d929b;
+    box-sizing: border-box;
+    position: absolute;
+    right: 20px;
+    display: none;
+  }
+  header > a:nth-of-type(1){
+    display: none;
+  }
+  header > a:nth-of-type(2){
+    content: "";
+    border-top: 3px solid #6d929b;
+    display: block;
+    margin-top: 10px;
+}
+  header > a:nth-of-type(2)::after{
+    content: "";
+    border-top: 3px solid #6d929b;
+    display: block;
+    margin-top: 11px;
+}
+/* ------------------------------ 타이틀 -------------------------------   */
+  .wrap{
+    width: calc(100% - 40px);
+    padding: 65px 0;
+  }
+  div#title .wrap h2{
+    position: inherit;
+    top: -25px;
+    left: -107px;
+    font-size: 20px;
+  }
+  div#title .wrap h3{
+    font-size: 21px;
+    margin-top: 2px;
+  }
+  div#title .wrap h3 span{
+    font-size: 41px;
+    margin-top: 38px;
+  }
+  div#title .wrap p{
+    font-size: 19px;
+    margin-top: -13px;
+    margin-bottom: 25px;
+  }
+  div#title::after{
+    width: 393px;
+    height: 262px;
+    top: 106px;
+    left: 35px;
+  }
+
+/* -------------------------------- 회사소개 ------------------------------- */
+  section{
+    width: calc(100% - 20px);
+    margin: 0 10px;
+  }
+  section#company{
+    
+  }
+  section#company .wrap{
+    z-index: 1;
+  }
+  section#company .wrap h2{
+    font-size: 35px;
+  }
+  section#company .wrap h3{
+    font-size: 21px;
+    margin-bottom: 35px;
+  }
+  section#company .wrap h3 span{
+    font-size: 37px;
+    margin-top: 30px;
+  }
+  section#company .wrap p{
+    font-size: 19px;
+  }
+  section#company .wrap a{
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  section#company::after{
+    width: 266px;
+    height: 497px;
+    background-size: 273px;
+    top: 610px;
+    right: 0;
+    z-index: 0;
+  }
+  /* ------------------------------ 서비스 -------------------------------   */
+  section#serviecs .wrap{
+    padding-bottom: 372px;
+  }
+  section#serviecs .wrap::before{
+    left: 5px;
+    width: 389px;
+    height: 303px;
+    background-size: 250px;
+    top: 211px;
+  }
+  section#serviecs .wrap h2{
+    font-size: 35px;
+  }
+  section#serviecs .wrap ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  section#serviecs .wrap ul li .h3{
+    width: 128px;
+    height: 55px;
+  }
+  section#serviecs .wrap ul li .h3 h3{
+    margin: 0;
+  }
+  section#serviecs .wrap ul li .h3 p{
+    display: none;
+  }
+  section#serviecs .wrap ul li .p{
+    width: 362px;
+    height: 276px;
+    right: -264px;
+    padding: 15px;
+    top: 79px;
+  }
+  section#serviecs .wrap ul li .p img{ 
+    width: 118px;
+    margin-top: 15px;
+  }
+  section#serviecs .wrap ul li .p p:first-of-type{
+    font-size: 15px;
+    width: 328px;
+    margin: 0 auto;
+  }
+  section#serviecs .wrap ul li:nth-child(2) .p{
+    top: 79px;
+    left: -132px;
+  }
+  section#serviecs .wrap ul li:nth-child(3) .p{
+    top: 79px;
+    left: -264px;
+  }
+  section#serviecs .wrap ul li .p > p:nth-child(3){
+    font-size: 13px;
+    width: 100%;
+    margin-top: 14px;
+  }
+  section#serviecs .wrap::after{
+    width: 299px;
+  }
+  /* ------------------------------ 히스토리 -------------------------------   */
+  section#history .wrap{
+    display: flex;
+    flex-direction: column;
+    /*! background-image: url(../img/sect02-slide02.png); */
+    /*! background-size: 57%; */
+    /*! background-repeat: no-repeat; */
+    /*! background-position-x: 170px; */
+    /*! background-position-y: 446px; */
+  }
+  section#history .wrap::after{
+    content: "";
+    background-image: url(../img/sect02-slide02.png);
+    background-repeat: no-repeat;
+    width: 243px;
+    height: 260px;
+    background-size: 245px;
+    position: absolute;
+    bottom: 43px;
+    right: 6px;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  section#history .wrap hgroup{
+    width: 100%;
+    height: 171px;
+    background-image: none;
+  }
+  section#history .wrap hgroup h2{
+    font-size: 35px;
+  }
+  section#history .wrap hgroup h3{
+    font-size: 21px;
+  }
+  section#history .wrap hgroup h3 span{
+    font-size: 37px;
+  }
+  section#history .wrap ul{
+    width: 100%;
+    margin-top: 14px;
+    font-size: 15px;
+    padding-left: 37px;
+    z-index: 1;
+  }
+  section#history .wrap ul::after{
+    top: 262px;
+    left: 17px;
+    height: 336px;
+  }
+   /* ------------------------------ 오시는길 -------------------------------   */
+  section#location .wrap{
+    flex-direction: column-reverse;
+  }
+  section#location .wrap iframe{
+    width: 100%;
+    height: 203px;
+    position: absolute;
+    top: 182px;
+  }
+  section#location .wrap .left{
+    text-align: center;
+    align-items: center;
+  }
+  section#location .wrap .left hgroup{
+    margin-bottom: 237px;
+  }
+  section#location .wrap .left hgroup h2{
+    font-size: 35px;  
+  }
+  section#location .wrap .left hgroup h3{
+    font-size: 37px;  
+    margin-top: 19px;
+  }
+  section#location .wrap .left p{
+    font-size: 20px;
+  }
+  section#location .wrap .left a{
+    margin-top: 13px;
+  }
+  section#location::after{
+    background-size: 791px;
+    width: 711px;
+    height: 604px;
+    left: -254px;
+    top: 42px;
+  }
+  /* ------------------------------ 하단영역 -------------------------------   */
+  footer .wrap{
+    padding: 30px 0;
+    row-gap: 15px;
+  }
+  footer .wrap address{
+    font-size: 14px;
+  }
+  footer .wrap p{
+    font-size: 15px;
+  }
+  footer .wrap p.tel{
+    font-size: 15px;
+    border: 1px solid;
+    padding: 10px;
+    bottom: 108px;
+  }
+}

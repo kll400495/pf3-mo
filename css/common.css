@@ -1,0 +1,10 @@
+.wrap{
+  width: 1300px;
+  margin: 0 auto;
+  padding: 140px 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-left: 69px;
+}
+.block{
+  display: block;
+}
