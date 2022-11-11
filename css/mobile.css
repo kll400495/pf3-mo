@@ -6,39 +6,43 @@
     margin-right: 20px;
     margin-left: 20px;
   }
+  header .header{
+    
+  margin-top: 0;
+  }
+  header h1{
+    
+  }
   header ul{
     display: none;
   }
-  header > a{
+  header .header > a{
+    display: none;
+  }
+  header .header > a:nth-of-type(2){
+    display: block;
     font-size: 0;
     width: 30px;
     height: 30px;
-    border-top: 3px solid #6d929b;
-    border-bottom: 3px solid #6d929b;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
     box-sizing: border-box;
     position: absolute;
     right: 20px;
-    display: none;
   }
-  header > a:nth-of-type(1){
-    display: none;
-  }
-  header > a:nth-of-type(2){
+  header .header > a:nth-of-type(2)::after{
     content: "";
-    border-top: 3px solid #6d929b;
-    display: block;
-    margin-top: 10px;
-}
-  header > a:nth-of-type(2)::after{
-    content: "";
-    border-top: 3px solid #6d929b;
+    border-top: 3px solid #fff;
     display: block;
     margin-top: 11px;
-}
+  }
 /* ------------------------------ 타이틀 -------------------------------   */
   .wrap{
     width: calc(100% - 40px);
     padding: 65px 0;
+  }
+  div#title::before{
+  display: none;
   }
   div#title .wrap h2{
     position: inherit;
@@ -48,22 +52,31 @@
   }
   div#title .wrap h3{
     font-size: 21px;
-    margin-top: 2px;
+    margin: 0;
+    margin-top: 57px;
   }
   div#title .wrap h3 span{
     font-size: 41px;
-    margin-top: 38px;
+    margin: 0;
+    margin-top: 19px;
+    color: #fff;
   }
   div#title .wrap p{
     font-size: 19px;
-    margin-top: -13px;
-    margin-bottom: 25px;
+    margin: 0;
+    margin-top: 45px;
+    color: #fff;
+  }
+  div#title .wrap a{
+    margin: 0;
+    margin-top: 49px;
   }
   div#title::after{
     width: 393px;
     height: 262px;
-    top: 106px;
+    top: 152px;
     left: 35px;
+    opacity: 0.5;
   }
 
 /* -------------------------------- 회사소개 ------------------------------- */
@@ -73,6 +86,16 @@
   }
   section#company{
     
+  }
+  section#company::before{
+    
+  width: 317px;
+  height: 255px;
+  left: 139px;
+  /*! border: 1px solid; */
+  background-size: 303px;
+  background-position: center;
+  top: 299px;
   }
   section#company .wrap{
     z-index: 1;
@@ -99,7 +122,7 @@
     width: 266px;
     height: 497px;
     background-size: 273px;
-    top: 610px;
+    top: 593px;
     right: 0;
     z-index: 0;
   }
@@ -109,7 +132,7 @@
   }
   section#serviecs .wrap::before{
     left: 5px;
-    width: 389px;
+    width: 396px;
     height: 303px;
     background-size: 250px;
     top: 211px;
@@ -134,10 +157,10 @@
   }
   section#serviecs .wrap ul li .p{
     width: 362px;
-    height: 276px;
-    right: -264px;
+    height: 278px;
+    right: -263px;
     padding: 15px;
-    top: 79px;
+    top: 84px;
   }
   section#serviecs .wrap ul li .p img{ 
     width: 118px;
@@ -150,11 +173,11 @@
   }
   section#serviecs .wrap ul li:nth-child(2) .p{
     top: 79px;
-    left: -132px;
+    left: -133px;
   }
   section#serviecs .wrap ul li:nth-child(3) .p{
-    top: 79px;
-    left: -264px;
+    top: 83px;
+    left: -265px;
   }
   section#serviecs .wrap ul li .p > p:nth-child(3){
     font-size: 13px;
