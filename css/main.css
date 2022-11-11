@@ -1,12 +1,9 @@
 /* ------------------회사소개------------------- */
 section#company {
-  /*! background-image: url(../img/comtanybg.png); */
-  /*! background-repeat: no-repeat; */
-  /*! background-position: right; */
-  /*! background-size: 31%; */
-  /*! position: relative; */
+  background-color: #F5FAFA;
+  position: relative;
 }
-section#company::after{
+section#company::before{
   content: "";
   background-image: url(../img/comtanybg.png);
   background-repeat: no-repeat;
@@ -20,13 +17,23 @@ section#company::after{
   transform: scaleX(-1);
   background-position-x: 0px;
   background-position-y: 313px;
-  top: 852px;
-  right: 264px;
+  top: -117px;
+  right: 276px;
+  z-index: 1;
+}
+section#company::after{
+   content: "";
+   background: #a0bbc1;
+   width: 266px;
+   height: 733px;
+   display: block;
+   position: absolute;
+   right: 140px;
+   bottom: 0;
 }
 section#company .wrap {
   position: relative;
   height: 100%;
-  border-bottom: 2px solid #6d929b;
 }
 section#company .wrap h2 {
   font-size: 45px;
@@ -111,7 +118,7 @@ section#serviecs .wrap::after{
 }
 section#serviecs .wrap h2 {
   font-size: 45px;
-  color: #77726b;
+  color: #E8D0A9;
 }
 section#serviecs .wrap ul {
   row-gap: 18px;
@@ -130,15 +137,16 @@ section#serviecs .wrap ul li .h3 {
   flex-direction: column;
   justify-content: center;
   height: 111px;
-  border: 2px solid #6d929b;
+  border: 2px solid #83abb5;
   border-radius: 20px;
   transition: all 0.8s;
-  box-shadow: 5px 7px 10px #969696;
-  background-color: #f5fafa;
-}
-section#serviecs .wrap ul li .h3:hover{
+  box-shadow: 5px 7px 10px #c6c6c6;
   background-color: #6d929b;
   color: #fff;
+}
+section#serviecs .wrap ul li .h3:hover{
+  background-color: #f2f2f2;
+  color: #6d929b;
 }
 section#serviecs .wrap ul li .h3:hover+div.p{
   display: block;
@@ -146,10 +154,10 @@ section#serviecs .wrap ul li .h3:hover+div.p{
 section#serviecs .wrap ul li .h3 h3 {
   font-size: 20px;
   margin-bottom: 13px;
-  font-weight: 500;
+  font-weight: 600;
 }
 section#serviecs .wrap ul li .h3 p {
-  font-weight: 300;
+  font-weight: 500;
 }
 section#serviecs .wrap ul li .p {
   width: 41%;
@@ -177,7 +185,7 @@ section#serviecs .wrap ul li .p img{
   margin-top: 18px;
 }
 section#serviecs .wrap ul li .p p {
-  width: 107%;
+  width: 100%;
 }
 section#serviecs .wrap ul li .p p:first-of-type{
   margin: 32px 0;
@@ -185,7 +193,7 @@ section#serviecs .wrap ul li .p p:first-of-type{
 }
 /* ------------------히스토리------------------- */
 section#history {
-  
+  background-color: #F5FAFA;
 }
 section#history .wrap {
   position: relative;

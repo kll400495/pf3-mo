@@ -1,4 +1,7 @@
 header {
+
+}
+header .header{
   width: 1450px;
   display: flex;
   margin: 0 auto;
@@ -10,7 +13,7 @@ header h1 {
   font-size: 0;
 }
 header h1 a {
-  background-image: url(../img/logo-1.png);
+  background-image: url(../img/logo-1.gif);
   width: 91px;
   height: 87px;
   display: block;
@@ -30,7 +33,7 @@ header ul {
 }
 header ul:before {
   content: "";
-  border-top: 2px solid #6d929b;
+  border-top: 2px solid #f5fafa;
   width: 1410px;
   position: absolute;
   right: -17px;
@@ -38,7 +41,7 @@ header ul:before {
 }
 header ul:after {
   content: "";
-  border-top: 2px solid #6d929b;
+  border-top: 2px solid #f5fafa;
   width: 1421px;
   position: absolute;
   right: -17px;
@@ -48,20 +51,20 @@ header ul li {
     
 }
 header a {
-  color: #6d929b;
+  color: #f5fafa;
 }
 header ul li a{
   
 }
 header ul li a:hover{
-  border-bottom: 4.5px solid #6d929b;
+  border-bottom: 4.5px solid #fff;
   padding-bottom: 19px;
 }
-header>a{
+header .header>a{
   position: absolute;
   top: 36px;
   right: 221px;
 }
-header > a:nth-of-type(2){
+header .header> a:nth-of-type(2){
   display: none;
 }
