@@ -8,3 +8,6 @@
 .block{
   display: block;
 }
+.h2{
+  text-transform: uppercase;
+}

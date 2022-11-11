@@ -1,15 +1,6 @@
 div#title {
   position: relative;
 }
-div#title::before{
-  content: "";
-  background: #ddeaec;
-  width: 266px;
-  height: 733px;
-  display: block;
-  position: absolute;
-  left: 283px;
-}
 div#title::after{
   content: "";
   width: 476px;
@@ -19,8 +10,8 @@ div#title::after{
   position: absolute;
   opacity: 0.8;
   z-index: 0;
-  top: 108px;
-  left: 338px;
+  top: 72px;
+  left: 309px;
   background-size: 100%;
 }
 div#title .wrap {
@@ -30,7 +21,7 @@ div#title .wrap {
   align-items: center;
   z-index: 1;
   position: relative;
-  /*! height: 1080px; */
+  height: calc(100% - 87px);
 }
 div#title .wrap::after{
 /*   content: "";
@@ -48,11 +39,11 @@ div#title .wrap h2 {
   left: 32px;
   top: 192px;
   font-size: 42px;
-  color: #fff;
+  color: #a7bec4;
   font-weight: 700;
-  background-color: #6d929b;
   padding: 10px 20px;
-  border: 2px solid white;
+  transform: rotate(90deg);
+  transform-origin: 50px 30px;
 }
 div#title .wrap h3 {
   font-size: 27px;
@@ -65,8 +56,8 @@ div#title .wrap h3 {
 div#title .wrap h3 span{
   font-size: 63px;
   color: #fff;
-  font-weight: 600;
-  margin-top: 50px;
+  font-weight: 500;
+  margin-top: 16px;
 }
 div#title .wrap p {
   

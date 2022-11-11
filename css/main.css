@@ -17,18 +17,18 @@ section#company::before{
   transform: scaleX(-1);
   background-position-x: 0px;
   background-position-y: 313px;
-  top: -117px;
-  right: 276px;
+  top: -242px;
+  right: 192px;
   z-index: 1;
 }
 section#company::after{
    content: "";
    background: #a0bbc1;
    width: 266px;
-   height: 733px;
+   height: 100%;
    display: block;
    position: absolute;
-   right: 140px;
+   right: 0px;
    bottom: 0;
 }
 section#company .wrap {
@@ -44,6 +44,7 @@ section#company .wrap h3 {
   font-weight: 400;
   margin-bottom: 58px;
   margin-top: 44px;
+  color: #8e958f;
 }
 section#company .wrap h3 .blodk {
     
@@ -51,14 +52,15 @@ section#company .wrap h3 .blodk {
 section#company .wrap h3 span {
   font-size: 63px;
   color: #6d929b;
-  font-weight: 600;
-  margin-top: 38px;
+  font-weight: 500;
+  margin-top: 18px;
 }
 section#company .wrap p {
   line-height: 1.3;
   font-size: 24px;
   margin-bottom: 26px;
   font-weight: 300;
+  color: #848884;
 }
 section#company .wrap a {
   padding: 20px 20px;
@@ -137,10 +139,9 @@ section#serviecs .wrap ul li .h3 {
   flex-direction: column;
   justify-content: center;
   height: 111px;
-  border: 2px solid #83abb5;
   border-radius: 20px;
   transition: all 0.8s;
-  box-shadow: 3px 5px 4px #6c6c6c;
+  box-shadow: 2px 5px 2px #cecece;
   background-color: #6d929b;
   color: #fff;
 }
@@ -160,14 +161,14 @@ section#serviecs .wrap ul li .h3 p {
   font-weight: 500;
 }
 section#serviecs .wrap ul li .p {
-  width: 41%;
+  width: 458px;
   position: absolute;
-  right: 106px;
+  right: 169px;
   display: none;
-  border: 2px solid #6d929b;
+  /*! border: 2px solid #6d929b; */
   padding: 50px;
   border-radius: 20px;
-  top: -23px;
+  top: -71px;
   display: none;
   background-color: #f2f2f2;
 }
@@ -175,13 +176,13 @@ section#serviecs .wrap ul li:nth-child(1) .p{
   
 }
 section#serviecs .wrap ul li:nth-child(2) .p{
-  top: -150px;
+  top: -190px;
 }
 section#serviecs .wrap ul li:nth-child(3) .p{
-  top: -303px;
+  top: -330px;
 }
 section#serviecs .wrap ul li .p img{
-  width: 240px;
+  width: 298px;
   margin-top: 18px;
 }
 section#serviecs .wrap ul li .p p {
@@ -217,11 +218,12 @@ section#history .wrap hgroup h3 {
   font-size: 27px;
   font-weight: 400;
   margin: 32px 0;
+  color: #848884;
 }
 section#history .wrap hgroup h3 span{
   font-size: 63px;
   color: #6d929b;
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 23px;
 }
 section#history .wrap ul {
@@ -254,8 +256,7 @@ section#location .wrap {
   display: flex;
   flex-direction: row-reverse;
   position: relative;
-  column-gap: 78px;
-  margin-top: 20px;
+  column-gap: 144px;
   z-index: 1;
 }
 section#location::after{
@@ -273,8 +274,9 @@ section#location::after{
 }
 section#location .wrap iframe {
   
-  width: 795px;
+  width: 783px;
   border: 2px solid #6d929b !important;
+  height: 515px;
 }
 section#location .wrap .left {
   display: flex;
@@ -282,7 +284,8 @@ section#location .wrap .left {
   row-gap: 21px;
 }
 section#location .wrap .left hgroup {
-  margin-bottom: 29px;
+  margin: 0 auto;
+  margin-top: 85px;
 }
 section#location .wrap .left hgroup h2 {
   font-size: 45px;
@@ -291,17 +294,18 @@ section#location .wrap .left hgroup h2 {
 section#location .wrap .left hgroup h3 {
   font-size: 63px;
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
   display: block;
   margin-top: 30px;
 }
 section#location .wrap .left p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #dbdbdb;
   
 }
-section#location .wrap .left p {
-  font-size: 22px;
-  font-weight: 400;
-  color: white;
+section#location .wrap .left p:nth-of-type(1){
+  margin-top: 30px;
 }
 section#location .wrap .left a {
   padding: 20px 20px;

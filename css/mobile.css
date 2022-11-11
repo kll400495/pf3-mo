@@ -28,7 +28,8 @@
     border-bottom: 3px solid #fff;
     box-sizing: border-box;
     position: absolute;
-    right: 20px;
+    left: 386px;
+    top: 32px;
   }
   header .header > a:nth-of-type(2)::after{
     content: "";
@@ -45,15 +46,14 @@
   display: none;
   }
   div#title .wrap h2{
-    position: inherit;
-    top: -25px;
-    left: -107px;
-    font-size: 20px;
+    font-size: 31px;
+    transform: none;
+    position: initial;
   }
   div#title .wrap h3{
     font-size: 21px;
     margin: 0;
-    margin-top: 57px;
+    margin-top: 27px;
   }
   div#title .wrap h3 span{
     font-size: 41px;
