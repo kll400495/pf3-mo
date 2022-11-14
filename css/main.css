@@ -104,7 +104,7 @@ section#serviecs .wrap::before{
   background-repeat: no-repeat;
   background-position: center;
 }
-section#serviecs .wrap::after{
+/* section#serviecs .wrap::after{
   content: "";
   background-image: url(../img/logo-1.png);
   display: block;
@@ -117,7 +117,7 @@ section#serviecs .wrap::after{
   top: 249px;
   opacity: 0.3;
   transform: rotate(11deg);
-}
+} */
 section#serviecs .wrap h2 {
   font-size: 45px;
   color: #E8D0A9;
