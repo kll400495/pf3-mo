@@ -88,6 +88,7 @@ section#serviecs .wrap {
   position: relative;
   height: 100%;
   border-bottom: 2px solid #6d929b;
+  margin: 38px auto;
 }
 section#serviecs .wrap::before{
   content: "";
