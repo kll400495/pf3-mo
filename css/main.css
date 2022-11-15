@@ -87,7 +87,6 @@ section#serviecs {
 section#serviecs .wrap {
   position: relative;
   height: 100%;
-  border-bottom: 2px solid #6d929b;
   margin: 38px auto;
 }
 section#serviecs .wrap::before{
@@ -202,6 +201,9 @@ section#history .wrap {
   display: flex;
   height: 100%;
   z-index: 1;
+  padding: 130px 0;
+  padding-left: 125px;
+  padding-top: 100px;
 }
 section#history .wrap hgroup {
   width: 50%;
@@ -210,6 +212,7 @@ section#history .wrap hgroup {
   background-repeat: no-repeat;
   background-position: bottom;
   
+  height: 656px;
 }
 section#history .wrap hgroup h2 {
   font-size: 45px;
@@ -230,7 +233,7 @@ section#history .wrap hgroup h3 span{
 section#history .wrap ul {
   width: 50%;
   margin: 0 auto;
-  margin-top: 161px;
+  margin-top: 131px;
   font-size: 20px;
   line-height: 3;
   padding-left: 50px;
@@ -242,8 +245,8 @@ section#history .wrap ul::after{
   display: block;
   border-left: 3px solid #6d929b;
   position: absolute;
-  left: 722px;
-  top: 316px;
+  left: 773px;
+  top: 281px;
 }
 section#history .wrap ul li {
   
