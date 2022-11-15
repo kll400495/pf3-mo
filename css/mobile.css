@@ -98,6 +98,7 @@
   }
   section#company .wrap{
     z-index: 1;
+    padding: 145px 0;
   }
   section#company .wrap h2{
     font-size: 35px;
@@ -115,7 +116,6 @@
   }
   section#company .wrap a{
     margin-top: 25px;
-    margin-bottom: 10px;
   }
   section#company::after{
   display: none;
@@ -185,12 +185,8 @@
   section#history .wrap{
     display: flex;
     flex-direction: column;
-    /*! background-image: url(../img/sect02-slide02.png); */
-    /*! background-size: 57%; */
-    /*! background-repeat: no-repeat; */
-    /*! background-position-x: 170px; */
-    /*! background-position-y: 446px; */
-  }
+    padding: 58px 0;
+   }
   section#history .wrap::after{
     content: "";
     background-image: url(../img/sect02-slide02.png);
@@ -199,7 +195,7 @@
     height: 260px;
     background-size: 245px;
     position: absolute;
-    bottom: 43px;
+    bottom: 130px;
     right: 6px;
     opacity: 0.4;
     z-index: 0;
@@ -208,6 +204,7 @@
     width: 100%;
     height: 171px;
     background-image: none;
+    padding-left: 13px;
   }
   section#history .wrap hgroup h2{
     font-size: 35px;
@@ -222,13 +219,13 @@
     width: 100%;
     margin-top: 14px;
     font-size: 15px;
-    padding-left: 37px;
+    padding-left: 39px;
     z-index: 1;
   }
   section#history .wrap ul::after{
     top: 262px;
     left: 17px;
-    height: 336px;
+    height: 321px;
   }
    /* ------------------------------ 오시는길 -------------------------------   */
   section#location .wrap{
